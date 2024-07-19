@@ -1,0 +1,23 @@
+.short-section {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* or any other background color you prefer */
+    z-index: 1000;
+}
+
+.short-content {
+    /* Add styles for the content inside the short section */
+    padding: 20px;
+    text-align: center; /* example style */
+}
+
+.close-short-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
